@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a href="../index.html" class="btn">Home</a>
+        <a href="../Rooms/Rooms.html" class="btn">Rooms</a>
+        <a href="../Gallery/Gallery.html" class="btn">Gallery</a>
+        <a href="./Booking.html" class="btn">Booking</a>
+    </nav><br>
+
+    <!-- Booking form -->
+    <article class="booking-card">
+        <fieldset>
+            <legend>
+                <h3>Booking form</h3>
+            </legend>
+            <form>
+                <label>
+                    Fullname:
+                    <input type="text" name="Fullname"><br>
+                    Email:
+                    <input type="email" name="email"><br>
+                    Phone Number:
+                    <input type="text" name="phonenumber"><br>
+                    Check-in Date:
+                    <input type="date" name="checkin"><br>
+                    Check-out Date:
+                    <input type="date" name="checkout"><br>
+                    Room type:
+                    <select name="roomtype">
+                        <option>Standard room</option>
+                        <option>Deluxe room</option>
+                        <option>Family suite room</option>
+                        <option>Presidential suite room</option>
+                    </select><br>
+                    Guest:
+                    <input type="number" name="guest"><br>
+                    Special Request:
+                    <input type="checkbox" name="special">Extra pillows
+                    <input type="checkbox" name="special">Baby bed
+                    <input type="checkbox" name="special">Airport pickup <br>
+                    Payment method:
+                    <select name="payment">
+                        <option>Cash</option>
+                        <option>Credit Card</option>
+                        <option>Paypal</option>
+                        <option>Bank Transfer</option>
+                    </select><br>
+                    <textarea name="note" placeholder="Q&A"></textarea>
+                    <button class="btn">Confirm</button>
+                </label>
+            </form>
+        </fieldset>
+    </article>
+</body>
+
+</html>

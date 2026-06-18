@@ -1,0 +1,109 @@
+h1,
+h2,
+h3,
+h4 {
+    color: rgb(7, 57, 40);
+
+}
+
+header {
+    text-align: center;
+}
+
+.btn {
+    color: rgb(7, 57, 40);
+    background-color: aliceblue;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: rgb(208, 245, 233);
+}
+
+.hero {
+    color: rgb(7, 57, 40);
+    text-align: center;
+}
+
+.hero figure {
+    margin: 0;
+}
+
+.hero img {
+    width: 70%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+/* Điều chỉnh các card */
+.featured-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+/* Điều chỉnh các elment trong card */
+.featured-card {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, .15);
+    transition: 0.8s;
+}
+
+/* Hiệu ứng rê chuột */
+.featured-card:hover {
+    transform: translateY(-15px);
+    background-color: rgb(220, 251, 241);
+}
+
+/* Chỉnh img fit với card */
+.featured-card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.information-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.booking-card {
+    width: 550px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, .15);
+}
+
+.services-card {
+    width: 400px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, .15);
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 20px;
+}
+
+.gallery-card {
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, .15);
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
